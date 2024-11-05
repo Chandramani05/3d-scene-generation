@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/3d-scene-generation/static/css/main.bae3efa3.css",
-    "main.js": "/3d-scene-generation/static/js/main.427d38e7.js",
+    "main.js": "/3d-scene-generation/static/js/main.badcdd3e.js",
     "static/js/358.efe60166.chunk.js": "/3d-scene-generation/static/js/358.efe60166.chunk.js",
     "static/media/0.png": "/3d-scene-generation/static/media/0.30a0a8f0a7f0f52a9487.png",
     "static/media/harrypotter.mp4": "/3d-scene-generation/static/media/harrypotter.7ad4a7093eaab89024ab.mp4",
@@ -15,11 +15,11 @@
     "static/media/0.jpg": "/3d-scene-generation/static/media/0.1422767198fd0bd7c1fa.jpg",
     "index.html": "/3d-scene-generation/index.html",
     "main.bae3efa3.css.map": "/3d-scene-generation/static/css/main.bae3efa3.css.map",
-    "main.427d38e7.js.map": "/3d-scene-generation/static/js/main.427d38e7.js.map",
+    "main.badcdd3e.js.map": "/3d-scene-generation/static/js/main.badcdd3e.js.map",
     "358.efe60166.chunk.js.map": "/3d-scene-generation/static/js/358.efe60166.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bae3efa3.css",
-    "static/js/main.427d38e7.js"
+    "static/js/main.badcdd3e.js"
   ]
 }
