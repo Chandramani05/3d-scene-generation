@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/3dvideo/static/css/main.bae3efa3.css",
+    "main.js": "/3dvideo/static/js/main.6749394c.js",
+    "static/js/358.efe60166.chunk.js": "/3dvideo/static/js/358.efe60166.chunk.js",
+    "static/media/0.png": "/3dvideo/static/media/0.30a0a8f0a7f0f52a9487.png",
+    "static/media/harrypotter.mp4": "/3dvideo/static/media/harrypotter.7ad4a7093eaab89024ab.mp4",
+    "static/media/2.jpeg": "/3dvideo/static/media/2.1712edaa1a2ad294c8f7.jpeg",
+    "static/media/marnie.mp4": "/3dvideo/static/media/marnie.23252544bb2e24e80d50.mp4",
+    "static/media/spiritedaway.mp4": "/3dvideo/static/media/spiritedaway.05c5878131306296651d.mp4",
+    "static/media/frozen.mp4": "/3dvideo/static/media/frozen.ceb8b788cd970ddce05c.mp4",
+    "static/media/1.jpeg": "/3dvideo/static/media/1.0efaca6096cf9f796a5f.jpeg",
+    "static/media/2.jpg": "/3dvideo/static/media/2.9ba93e21ca1486df62b7.jpg",
+    "static/media/0.jpeg": "/3dvideo/static/media/0.412ea8a125dec06315f9.jpeg",
+    "static/media/0.jpg": "/3dvideo/static/media/0.1422767198fd0bd7c1fa.jpg",
+    "index.html": "/3dvideo/index.html",
+    "main.bae3efa3.css.map": "/3dvideo/static/css/main.bae3efa3.css.map",
+    "main.6749394c.js.map": "/3dvideo/static/js/main.6749394c.js.map",
+    "358.efe60166.chunk.js.map": "/3dvideo/static/js/358.efe60166.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bae3efa3.css",
+    "static/js/main.6749394c.js"
+  ]
+}
