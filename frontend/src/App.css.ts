@@ -19,6 +19,23 @@ export const tabsContainer = style({
   margin: "1em 0",
 });
 
+export const iconContainer = style({
+  display: "flex",
+  justifyContent: "center",
+  gap: "1em",
+  marginTop: "1em",
+});
+
+export const iconLink = style({
+  color: "#FFF",
+  fontSize: "1.5em",
+  transition: "color 0.3s ease",
+
+  ":hover": {
+    color: "#FFD700", // Customize hover color as needed
+  },
+});
+
 export const tabButton = style({
   padding: "10px 20px",
   margin: "0 5px",

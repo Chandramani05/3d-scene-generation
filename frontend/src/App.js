@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import * as styles from "./App.css.ts";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Carousel } from "antd";
 import spiritedaway from "./assets/spiritedaway/spiritedaway.mp4";
 import harrypotter from "./assets/harrypotter/harrypotter.mp4";
@@ -96,6 +97,30 @@ function App() {
       <header className={styles.header}>
         <h1>3D Scene Generation</h1>
         <h2>Project Page</h2>
+
+        <div className={styles.iconContainer}>
+          {/* GitHub Link */}
+          <a
+            href="https://github.com/Chandramani05/3d-scene-generation.git"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.iconLink}
+            aria-label="GitHub"
+          >
+            <FaGithub />
+          </a>
+
+          {/* LinkedIn Link */}
+          <a
+            href="https://linkedin.com/in/Chandramani05"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.iconLink}
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
       </header>
 
       {/* Static Section Tabs */}
