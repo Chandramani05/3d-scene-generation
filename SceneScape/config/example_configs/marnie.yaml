@@ -1,0 +1,7 @@
+runs_dir: output
+seed: 0
+frames: 30
+
+stable_diffusion_checkpoint: "emily49/marnie-stable-diffusion-non-inpaint-1-5" #"dreambooth_models/mountains-sks-1500"
+
+inpainting_prompt: "POV, walkthrough, room from sks marnie, masterpiece, indoor scene, best quality"
