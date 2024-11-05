@@ -37,37 +37,40 @@ function App() {
   const onChange = (currentSlide) => {
     console.log(currentSlide);
   };
-
   const sections = {
     abstract: {
       title: "Abstract",
       content: (
         <p>
-          This project presents <strong>StyleScape</strong>, a novel approach to 3D scene generation that synthesizes
-          stylized, depth-consistent scenes inspired by iconic films. Building upon the <strong>SceneScape</strong> pipeline,
-          this method fine-tunes Stable Diffusion models using <strong>Dreambooth</strong> for few-shot generation of scenes 
-          that match the visual essence of selected movies. By integrating <strong>ControlNet</strong> for contextual inpainting, 
-          the model preserves the structural integrity of scenes through iterative depth estimation and mesh reconstruction. 
-          Experiments demonstrate that StyleScape produces superior style and content fidelity to the target films compared to 
-          baseline methods, validated by both quantitative metrics and human assessments.
+          In my project, I present,a novel approach to generating 3D-consistent, stylized scenes
+          inspired by iconic films. My method builds on the <strong>SceneScape</strong> pipeline, incorporating <strong>Dreambooth </strong>&nbsp;
+          to fine-tune Stable Diffusion models with just a few example images. This fine-tuning allows me to create scenes that not only 
+          reflect the visual essence of chosen films but also preserve 3D depth and consistency. I integrate <strong>ControlNet </strong>&nbsp;
+          to guide the model’s inpainting tasks, ensuring that scene structure and context remain coherent as the depth information 
+          and mesh reconstruction are iteratively refined. Through experiments across multiple films, this method demonstrates a high degree 
+          of style and content fidelity to the original films, validated through quantitative metrics and human evaluations. This work 
+          advances the possibilities for generating immersive 3D experiences that remain true to specific artistic styles.
         </p>
       ),
     },
     contributions: {
-      title: "Contributions",
+      title: "Approach",
       content: (
         <ul>
           <li>
-            <strong>Few-shot Training for Scene Generation:</strong> Application of Dreambooth to adapt Stable Diffusion models for 
-            scene-driven generation, extending capabilities from subject-driven to stylized, scene-driven applications.
+            <strong>Few-shot Training for Scene Generation:</strong> I apply Dreambooth to adapt Stable Diffusion models, extending 
+            their application from subject-driven generation to stylized, scene-based generation. This allows me to recreate scenes that 
+            retain the unique artistic qualities of specific films with minimal data.
           </li>
           <li>
-            <strong>ControlNet Integration:</strong> Enables contextual inpainting by conditioning model on depth-based mask inputs 
-            to maintain scene coherence and structural consistency.
+            <strong>Integration of ControlNet for Structural Consistency:</strong> I incorporate ControlNet to condition the model 
+            on depth-based masks, which provides contextual guidance during inpainting. This technique is essential for maintaining 
+            coherence across scenes and ensuring structural fidelity in 3D space.
           </li>
           <li>
-            <strong>Experimental Validation:</strong> Evaluation against baseline SceneScape through human assessments and 
-            aesthetic metrics to validate the approach.
+            <strong>Comprehensive Experimental Validation:</strong> I evaluate this approach against the baseline SceneScape method 
+            using both aesthetic metrics and human assessments. These evaluations demonstrate projects's effectiveness in preserving 
+            the intended style and quality of the original films.
           </li>
         </ul>
       ),
@@ -76,14 +79,17 @@ function App() {
       title: "Methods",
       content: (
         <p>
-          Our method, StyleScape, modifies the SceneScape pipeline by introducing Dreambooth for fine-tuning Stable Diffusion 
-          models on a few training images per scene. This enables generation of stylized scenes consistent with the target films.
-          ControlNet is used to guide the inpainting tasks to ensure scene coherence, depth consistency, and to mitigate issues 
-          related to geometric distortion in 3D walkthroughs.
+          In developing this method, I modify the foundational SceneScape pipeline by introducing <strong>Dreambooth</strong> for fine-tuning 
+          Stable Diffusion models. For each scene, I use a few key training images to train the model, enabling it to produce stylized 
+          scenes that maintain consistency with the target film’s visual characteristics. Additionally, I employ <strong>ControlNet</strong> 
+          to guide inpainting tasks, which helps ensure scene coherence, depth consistency, and the reduction of geometric distortion 
+          in generated 3D walkthroughs. This process is further enhanced by iterative depth estimation and mesh reconstruction, which 
+          allows for realistic scene development that aligns with the film’s visual language.
         </p>
       ),
     },
   };
+  
 
   return (
     <div className={styles.app}>
