@@ -1,7 +1,8 @@
 {
-  "name": "website",
+  "name": "project_page",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Chandramani05.github.io/3dvideo",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -41,6 +44,7 @@
   "devDependencies": {
     "@craco/craco": "^7.0.0-alpha.9",
     "@vanilla-extract/webpack-plugin": "^2.3.9",
-    "ajv": "^7.2.4"
+    "ajv": "^7.2.4",
+    "gh-pages": "^6.2.0"
   }
 }
